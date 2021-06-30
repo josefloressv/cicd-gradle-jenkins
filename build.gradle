@@ -6,7 +6,7 @@ task sayHello doLast {
 }
 
 task anotherTask doLast {
-    println 'Hello, World!'
+    println 'Hello, from dependence Task!'
 }
 
 sayHello.dependsOn anotherTask
